@@ -1,0 +1,32 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Poetry
+poetry.lock
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Playwright / browsers
+playwright-report/
+test-results/
+playwright/.cache/
+
+# Project-specific
+downloads/
+input.json
+.env

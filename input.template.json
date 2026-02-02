@@ -1,0 +1,76 @@
+{
+	"template": {
+		"values": {
+			"fgColor": "#ffffff",
+			"bgColor": "#6a3de8",
+			"fgClipart": {
+				"set": "default",
+				"icon": "book_4"
+			},
+			"bgType": "color",
+			"bgMesh": {
+				"points": [
+					{
+						"x": 0.25,
+						"y": 0.25,
+						"color": "#536DFE"
+					},
+					{
+						"x": 0.75,
+						"y": 0.75,
+						"color": "#6A3DE8"
+					}
+				]
+			},
+			"bgGradient": {
+				"stops": {
+					"0": "#536DFE",
+					"1": "#6A3DE8"
+				},
+				"angle": 315
+			},
+			"bgTexture": {
+				"texture": "mosaic",
+				"color": "rgba(255, 255, 255, 0.22)"
+			},
+			"fgPadding": {
+				"top": 15,
+				"right": 15,
+				"bottom": 15,
+				"left": 15
+			},
+			"fgEffects": "shadow",
+			"badgeColor": "#1de9b6"
+		},
+		"modules": ["ios", "android"]
+	},
+	"items": [
+		{
+			"name": "test-1",
+			"values": {
+				"bgColor": "#6a3de8",
+				"bgType": "color"
+			}
+		},
+		{
+			"name": "test-2",
+			"values": {
+				"bgColor": "#ff4081",
+				"bgType": "color"
+			}
+		},
+		{
+			"name": "test-3",
+			"values": {
+				"bgGradient": {
+					"stops": {
+						"0": "#1DE9B6",
+						"1": "#FFEB3B"
+					},
+					"angle": 90
+				},
+				"bgType": "gradient"
+			}
+		}
+	]
+}
